@@ -15,7 +15,7 @@
 // Paste your Make webhook URL between the quotes. While it still says
 // PASTE_..., the form runs in "practice mode": it logs the data to the browser
 // console (F12 > Console) and does not send anything anywhere.
-const WEBHOOK_URL = "PASTE_MAKE_WEBHOOK_URL_HERE";
+const WEBHOOK_URL = "https://hook.eu1.make.com/svdnz4earunob902doa8nv36s3rabq64";
 
 const FALLBACK_PHONE = "(913) 555-0142"; // fictional demo number
 
