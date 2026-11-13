@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 720">
+  <defs>
+    <pattern id="wall" width="48" height="48" patternUnits="userSpaceOnUse"><rect width="48" height="48" fill="#d6e7e5"/><path d="M48 0H0V48" fill="none" stroke="#b7d0ce" stroke-width="2"/></pattern>
+    <pattern id="floor" width="80" height="40" patternUnits="userSpaceOnUse"><rect width="80" height="40" fill="#86aaa8"/><path d="M80 0H0V40" fill="none" stroke="#6f9694" stroke-width="2"/></pattern>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient>
+  </defs>
+  <rect width="600" height="720" fill="url(#wall)"/>
+  <rect y="540" width="600" height="180" fill="url(#floor)"/>
+  <rect y="534" width="600" height="8" fill="#0a3a3e" opacity=".25"/>
+  <!-- shower -->
+  <rect x="40" y="70" width="230" height="470" fill="url(#glass)" stroke="#0a3a3e" stroke-width="6"/>
+  <path d="M155 70V540" stroke="#0a3a3e" stroke-width="3" opacity=".5"/>
+  <path d="M85 70V150H150" fill="none" stroke="#b87333" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="160" cy="160" rx="30" ry="9" fill="#b87333"/>
+  <g stroke="#fff" stroke-width="2" opacity=".7" stroke-linecap="round"><path d="M140 175l-16 330M155 177l-4 328M170 175l12 330M185 172l26 332"/></g>
+  <rect x="246" y="250" width="8" height="90" rx="4" fill="#b87333"/>
+  <!-- mirror -->
+  <path d="M330 330V190a105 105 0 0 1 210 0V330Z" fill="#eef6f5" stroke="#b87333" stroke-width="8"/>
+  <path d="M365 320L470 150M400 320L505 150" stroke="#fff" stroke-width="14" opacity=".7"/>
+  <rect x="292" y="205" width="12" height="60" rx="5" fill="#b87333"/><rect x="566" y="205" width="12" height="60" rx="5" fill="#b87333"/>
+  <circle cx="298" cy="195" r="9" fill="#f6d9a8"/><circle cx="572" cy="195" r="9" fill="#f6d9a8"/>
+  <!-- vanity -->
+  <rect x="300" y="450" width="270" height="150" fill="#0a3a3e"/>
+  <path d="M435 450V600" stroke="#06292c" stroke-width="3"/>
+  <rect x="418" y="500" width="12" height="36" rx="6" fill="#b87333"/><rect x="440" y="500" width="12" height="36" rx="6" fill="#b87333"/>
+  <rect x="288" y="432" width="294" height="22" rx="4" fill="#f7f4ee"/>
+  <ellipse cx="435" cy="432" rx="62" ry="9" fill="#c8dcda"/>
+  <path d="M435 432V385q0-18 20-18h12" fill="none" stroke="#b87333" stroke-width="8" stroke-linecap="round"/>
+  <rect x="520" y="395" width="26" height="37" rx="5" fill="#b87333" opacity=".85"/><path d="M533 395v-18" stroke="#8f5622" stroke-width="5"/>
+  <rect x="150" y="610" width="180" height="26" rx="8" fill="#b87333" opacity=".55"/>
+</svg>
